@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Redirect, Route } from 'react-router-dom';
 
+import '../App.css'
+
 import Home from './Pages/Home'
 import Account from './Pages/Account'
 import FurryFriendsFinder from './Pages/FurryFriendsFinder'

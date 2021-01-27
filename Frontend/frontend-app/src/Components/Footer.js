@@ -4,13 +4,17 @@ export default function Footer() {
     return (
         <footer className="footer">
             <ul className="footer-bar">
-                <li>Careers</li>
-                <li>Contact Us</li>
-                <li>Development</li>
-                <li>Forms</li>
-                <li>Merch</li>
-                <li>News</li>
-                <li>Sponsors</li>
+                <li className="link">Careers</li>
+                <li className="link">Contact Us</li>
+                <li className="link">Development</li>
+                <li className="link">Forms</li>
+                <li className="link">News</li>
+                <li className="link">Privacy</li>
+                <li className="link">Security</li>
+                <li className="link">Shop</li>
+                <li className="link">Sponsors</li>
+                <li className="link">Terms</li>
+                
             </ul>
         </footer>
     )
