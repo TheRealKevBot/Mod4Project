@@ -13,7 +13,7 @@ export default function Home(props) {
                 owners no longer have the means to properly maintain a healthy lifestyle for them, not because of anything they have done. 
             </p>
             <p className="disclaimer">It is our mission to help find a home for all animal's in need, and we hope that you will join us!</p>
-            <PetsContainer />
+            <PetsContainer animals={props.animals} />
         </div>
     )
 }
