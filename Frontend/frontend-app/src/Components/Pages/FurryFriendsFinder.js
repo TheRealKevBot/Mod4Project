@@ -100,7 +100,7 @@ export default function FurryFriendsFinder(props) {
 
             </div>
             
-            <img src='https://blogstudio.s3.amazonaws.com/utpatents/ba16ed77f897e5bfea115cd9bbc986f2.png' alt='Patent Pending' />
+            <img className='patent' src='https://blogstudio.s3.amazonaws.com/utpatents/ba16ed77f897e5bfea115cd9bbc986f2.png' alt='Patent Pending' />
             
         </div>
     )

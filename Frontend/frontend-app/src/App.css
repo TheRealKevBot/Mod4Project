@@ -61,6 +61,7 @@ body{
   font-size: 30pt;
   color: antiquewhite;
   text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
+  margin-top: 2.5rem;
 }
 
 .main h2{
@@ -74,7 +75,7 @@ body{
   text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 } 
 
-.main h3{
+.main h3, h4{
   text-align: center;
   font-size: 18pt;
   color: antiquewhite;
@@ -109,6 +110,7 @@ body{
 .pets-container{
   display: flex;
   justify-content: space-between;
+  /* margin: auto; */
   flex-wrap: wrap;
   height: 100vh;
   width: 100vw;
@@ -123,7 +125,6 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.33);
   width: 550px;
   height: 600px;
-
   box-sizing: border-box;
 }
 
@@ -173,33 +174,105 @@ body{
   text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 }
 
-.sort-by-breed-group {
+.sort-by-breed-group, .sort-by-breed {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 }
 
-.sort-by-age-group {
+.sort-by-age-group, .sort-by-age {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 }
 
-.sort-by-activity-level-group {
+.sort-by-activity-level-group, .sort-by-activity-level {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 }
 
-.sort-by-shedding-level-group {
+.sort-by-shedding-level-group, .sort-by-shedding-level {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 }
 
-.sort-by-barking-level-group {
+.sort-by-barking-level-group, .sort-by-barking-level {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
 }
+
+.patent{
+  max-width: 500px;
+  max-height: 275px;
+  display: block;
+}
+
+.sign-in-form, .sign-up-form{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.33);
+  background-color: burlywood;
+}
+
+.sign-in-form input, .sign-up-form input{
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
+  margin-top: .2rem;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+}
+
+.sign-in-form label, .sign-up-form label{
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
+  margin-top: .2rem;
+}
+.sign-in-form button, .sign-up-form button{
+  background-color: burlywood;
+  color: antiquewhite;
+  text-shadow: 1.25px .25px 3px rgb(112, 108, 101);
+  margin-top: .5rem;
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.20);
+}
+
+.user-card{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 75rem;
+  padding: 1rem;
+  margin: auto;
+  padding: 1rem;
+  margin: auto;
+  box-shadow: 4px 10px 18px 4px rgba(0, 0, 0, 0.33);
+  background-color: burlywood;
+} 
+
+.user-card img{
+  max-width: 650px;
+  max-height: 750px;
+}
+
 
