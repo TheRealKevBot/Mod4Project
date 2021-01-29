@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Redirect, Route, Switch } from 'react-router-dom';
 
 import AccountContainer from '../AccountContainer'
 import SignIn from '../SignIn'
@@ -11,11 +10,11 @@ export default class Account extends Component {
         return (
             <div>
                 {this.props.user.username ? 
-                <UsersPage signUp={this.props.signUp} user={this.props.user} />
+                <UsersPage signUp={this.props.signUp} user={this.props.user} deleteUser={this.props.deleteUser} />
                 :
                 <> 
-                <AccountContainer signUp={this.props.signUp} />
                 <SignIn signIn={this.props.signIn} error={this.props.error}/>
+                <AccountContainer signUp={this.props.signUp} />
                 </>
                 }
             </div>

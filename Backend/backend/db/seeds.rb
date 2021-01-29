@@ -27,12 +27,12 @@ Animal.create(
     animal_type: "Dog",
     age: 2, 
     breed: "Shiba Inu",
-    description: "Lucky is very kind and loving Shiba Inu. He is a 2 year old male who started life as a foster puppy. He was found
+    description: "Hiro is very kind and loving Shiba Inu. He is a 2 year old male who started life as a foster puppy. He was found
     abandoned on the streets by his current foster parents who have been trying to find him a home for some time. DUring his time with
     his foster parents, he has become housetrained and knows basic commands such as come, sit, paw, and laydown to just name a few.
-    Lucky loves to go on long walks in the forrest to explore or if your looking for a running partner look no further. Lucky has enough
+    Hiro loves to go on long walks in the forrest to explore or if your looking for a running partner look no further. Hiro has enough
     energy to keep you going that extra mile. If your looking for a loving and caring friend that will match the energy you have, please
-    consider taking a look at Lucky today!", 
+    consider taking a look at Hiro today!", 
     breed_info: "An ancient Japanese breed, the Shiba Inu is a little but well-muscled dog once employed as a hunter. Today, the spirited, good-natured Shiba is 
     the most popular companion dog in Japan. The adaptable Shiba is at home in town or country. 
     Brought to America from Japan as recently as 60 years ago, Shibas are growing in popularity in the West and are already the most popular breed in their homeland. 
