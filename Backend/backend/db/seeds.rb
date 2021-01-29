@@ -1,3 +1,14 @@
+### USERS ###
+
+# User.create(
+#     username: "KevBot",
+#     email: "Kglas001@gmail.com",
+#     f_name: "Kevin",
+#     l_name: "Glasgow",
+#     password: "123",
+#     image: "https://data.whicdn.com/images/11073702/original.jpg"
+# )
+
 ### ANIMALS ###
 
 # Animal.create(
