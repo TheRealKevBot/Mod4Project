@@ -1,8 +1,6 @@
 import React from 'react'
 import PetsContainer from '../PetsContainer'
 
-
-
 export default function Home(props) {
     return (
         <div>
